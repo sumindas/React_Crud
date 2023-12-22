@@ -1,0 +1,78 @@
+/* Box style */
+.box1 {
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 50px; /* Adjust the top margin to your preference */
+  }
+  .box1 input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  /* Style for buttons */
+  .box1 button {
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  /* Style for the registration link */
+  .registerBtn {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  /* Form element styles */
+  .form-label {
+    font-weight: bold;
+    display: block;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Submit button style */
+  .btn-primary {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4285f4;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #357ae8;
+  }
+  
+  /* Error message style */
+  .error {
+    color: #d32f2f;
+    margin-top: 10px;
+  }
+  
+  /* Register link style */
+  .registerBtn {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .registerBtn a {
+    color: #4285f4;
+    text-decoration: none;
+  }
+  
+  .registerBtn a:hover {
+    text-decoration: underline;
+  }
+  

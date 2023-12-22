@@ -1,0 +1,42 @@
+
+  .search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-control {
+    width: 300%; 
+    margin-right: 10px; 
+  }
+  .searchButton{
+    width: 100px;
+    margin-top: -14px;
+    height: 40px;
+    border-radius: 10px;
+  }
+
+
+#addcouponmodal .modal-content {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+  }
+  
+  #editCouponModal .modal-content {
+    background-color: #e8e8e8;
+    border-radius: 8px;
+  }
+  
+ 
+  #deleteProductModal .modal-content {
+    background-color: #f8f8f8;
+    border-radius: 12px;
+  }
+
+.modal-body input[type="text"],
+.modal-body input[type="email"],
+.modal-body input[type="password"],
+.modal-body input[type="phone"] {
+  width: 100%; 
+  box-sizing: border-box; 
+}

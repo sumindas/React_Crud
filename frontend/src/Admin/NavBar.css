@@ -1,0 +1,26 @@
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #5050e1; 
+        padding: 10px;
+        color: white; 
+    }
+
+    button {
+        background-color: #f44336; /* Red color for button */
+        color: white; /* Text color */
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #d32f2f; /* Darker red on hover */
+    }
+    .heading{
+        text-align: center;
+        margin-left: 500px;
+    }

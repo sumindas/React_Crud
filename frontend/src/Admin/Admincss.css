@@ -1,0 +1,42 @@
+
+.adminbox {   
+    background-color: #2ab8b8 ;
+    margin: auto;
+    width: 50%;
+    border: 3px solid #FBE7A1;
+    margin-top: 7%;
+    border-radius: 1%;
+    padding: 30px 30px;
+}
+
+.registerBtn{
+    text-align: center;
+    
+}
+
+.registerBtn a{
+    color: #DAEE01;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.imageUpload{
+    padding-left: 25px;
+    margin-top: 4px;
+  
+}
+
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.error{
+    color: #e40c0c;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
