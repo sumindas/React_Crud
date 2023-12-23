@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import CustomUser, UserImage
+from .models import CustomUser
 from rest_framework.validators import UniqueValidator
 
 
@@ -10,7 +10,7 @@ class CustomUserSerializer(serializers.ModelSerializer):
     )
     class Meta:
         model = CustomUser
-        fields = ['first_name', 'last_name', 'email', 'phone', 'password']
+        fields = ['first_name', 'last_name', 'email', 'phone','image', 'password']
         extra_kwargs = {
             'password': {'write_only':True}
         }
@@ -24,7 +24,3 @@ class CustomUserSerializer(serializers.ModelSerializer):
         return instance
         
         
-class ImageSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = UserImage
-        fields = '__all__'
